@@ -35,3 +35,7 @@ build/
 ### Maven related ###
 .mvn/
 
+### Secure Connect bundles ###
+src/main/resources/secure-connect.zip
+
+
