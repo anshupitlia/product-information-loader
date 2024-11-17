@@ -6,7 +6,7 @@ This application represents the box marked green in the architecture diagram ![a
 
 The information of `Products` in a real life project could come from inventory details service or basic file uploads. Here I have used `https://dummyjson.com/products` endpoint to fetch some dummy products.
 
-The products provided in this endpoint have lots of fields, all relevant to a product but not so relevant for our assignment. So, this application deals with sanitizing that data as well.
+The products provided in this endpoint have lots of fields, all relevant to a product but not so relevant for our assignment. So, this application deals with sanitizing that data as well. Also, this dummy data did not have country which is essential for our assignment, so I have randomly generated country for the records while doing this sanitization.  
 
 Eg: ![products](docs/products.png)
 
